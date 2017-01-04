@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <title>HTML Page</title>
     <link rel="stylesheet" type="text/css" href="styles/semantic.css" media="screen" />
+    <link rel="stylesheet" href="styles/figure.css" />
 </head>
-<body>    
-<header>News Website</header>
-<nav>Nav</nav>
-<section>
-    <article>Article 1</article>
-    <article>Article 2</article>
-</section>
-<aside>Aside</aside>
-<footer>Footer</footer>
+
+<body>
+    <header>News Website</header>
+    <nav>Nav</nav>
+    <section>
+        <article> Your next appointment is on
+            <time datetime="2015-12-13T08:30:00-05:00">
+                <strong>December 12th at 08:30 AM</strong>
+            </time>.</article>
+        <article>Article 2</article>
+    </section>
+    <section>
+        <article>Article 3</article>
+        <article> 
+            <figure>
+                <img src="images/stock-photo.jpg" alt="Journey" />
+                <figcaption>
+                    This is how we get there.
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+    <aside>Aside</aside>
+
+    <footer>Footer</footer>
+
 </body>
+
 </html>
