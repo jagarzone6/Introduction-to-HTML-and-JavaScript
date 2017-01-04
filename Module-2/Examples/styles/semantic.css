@@ -19,6 +19,7 @@ aside {
 
 section {
     flex: 4 auto;
+    width: 450px;
     background-color: #5AADB0;
     padding: 5px 10px;
 }

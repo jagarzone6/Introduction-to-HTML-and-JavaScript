@@ -6,7 +6,7 @@ figure {
     width: 400px;
 }
 figure > img {
-    flex-index: 1;
+    flex-index: 2;
     width: 350px;
 }
 figure > figcaption::before {
