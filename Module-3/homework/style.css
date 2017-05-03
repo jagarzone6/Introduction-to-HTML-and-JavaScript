@@ -10,11 +10,11 @@ src: url('fonts/mod3_contrail_one.ttf') format('truetype');
 header > h1 {
     font-size: 4em
 }
-main figure figcaption {
+main figure > figcaption {
     font-size: 0.75em;
     font-style: italic
 }
-main figure figcaption::before {
+main figure > figcaption::before {
     content: 'Pictured above: ';
     font-weight: bold
 }
@@ -41,11 +41,7 @@ font-family: News Cycle
 }
 
 @media not print {
-article > h4 {
-color: #8C1018
-}
-
-article > h3 {
+h3, article h4 {
 color: #8C1018
 }
 
