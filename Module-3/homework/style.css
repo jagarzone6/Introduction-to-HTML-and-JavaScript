@@ -7,35 +7,6 @@ font-family: Contail One;
 src: url('fonts/mod3_contrail_one.ttf') format('truetype');
 }
 
-body {
-color: #635959;
-font-family: News Cycle
-}
-
-header {
-    color: #EFEFEF ;
-    background-color: #242323;
-    padding: 20px 50px;
-    font-family: Contail One
-}
-
-article {
-    margin: 5px 0px;
-    padding: 5px 5px;
-    box-shadow: -1px -1px 6px #888888
-}
-article h4 {
-color: #8C1018
-}
-
-article h3 {
-color: #8C1018
-}
-
-article > a {
-color: #314052
-
-}
 header > h1 {
     font-size: 4em
 }
@@ -52,9 +23,68 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter
 }
-main > h3 {
-    font-size: 2em
-}
+
 main {
     padding: 5px 10px
+}
+
+article {
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+header {
+    padding: 20px 50px;
+    font-family: Contail One
+}
+body {
+font-family: News Cycle
+}
+
+@media not print {
+article > h4 {
+color: #8C1018
+}
+
+article > h3 {
+color: #8C1018
+}
+
+article > a {
+color: #314052
+
+}
+article {
+    box-shadow: -1px -1px 6px #888888
+}
+
+header {
+    color: #EFEFEF ;
+    background-color: #242323;
+}
+body {
+color: #635959;
+}
+
+main > h3 {
+    font-size: 2em;
+    color: #8C1018
+}
+
+}
+
+
+@media print {
+header {
+    padding: 0px;
+}
+article {
+    box-shadow: none;
+}
+header > h1 {
+font-size: 2em;
+}
+header > h2 {
+display: none;
+}
+
 }
