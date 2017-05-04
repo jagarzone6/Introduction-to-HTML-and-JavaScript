@@ -1,0 +1,16 @@
+document.title;
+document.title = "Demo Page";
+document.scripts;
+document.URL;
+document.links;
+document.links[0];
+document.links[0].href = "http://www.microsoft.com/learning";
+document.links[0].target = "_blank";
+document.head;
+document.body;
+document.getElementsByTagName('footer');
+document.getElementsByTagName('footer')[0];
+document.getElementsByTagName('footer')[0].innerHTML = "Demo Footer";
+document.getElementsByTagName('article');
+document.getElementsByClassName('demoClass');
+document.getElementById('testNav');
